@@ -354,4 +354,4 @@ const officeAndStationery = [
   },
 ];
 
-module.exports = { data: officeAndStationery };
+export default officeAndStationery;

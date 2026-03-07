@@ -890,4 +890,4 @@ const beautyAndPersonalCare = [
   },
 ];
 
-module.exports = { data: beautyAndPersonalCare };
+export default beautyAndPersonalCare;

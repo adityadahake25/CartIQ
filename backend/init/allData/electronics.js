@@ -893,4 +893,4 @@ const electronics = [
   },
 ];
 
-module.exports = { data: electronics };
+export default electronics;

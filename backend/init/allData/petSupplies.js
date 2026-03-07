@@ -357,4 +357,4 @@ const petSupplies = [
   },
 ];
 
-module.exports = { data: petSupplies };
+export default petSupplies;

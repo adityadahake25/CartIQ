@@ -894,4 +894,4 @@ const homeAndKitchen = [
   },
 ];
 
-module.exports = { data: homeAndKitchen };
+export default homeAndKitchen;

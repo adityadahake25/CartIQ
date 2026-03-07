@@ -952,4 +952,4 @@ const grocery = [
   },
 ];
 
-module.exports = { data: grocery };
+export default grocery;

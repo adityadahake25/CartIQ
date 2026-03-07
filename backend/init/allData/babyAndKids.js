@@ -897,4 +897,4 @@ const babyAndKids = [
   },
 ];
 
-module.exports = { data: babyAndKids };
+export default babyAndKids;

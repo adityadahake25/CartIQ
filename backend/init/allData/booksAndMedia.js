@@ -721,4 +721,4 @@ const booksAndMedia = [
   },
 ];
 
-module.exports = { data: booksAndMedia };
+export default booksAndMedia;

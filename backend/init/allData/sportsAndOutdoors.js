@@ -469,4 +469,4 @@ const sportsAndOutdoors = [
   },
 ];
 
-module.exports = { data: sportsAndOutdoors };
+export default sportsAndOutdoors;

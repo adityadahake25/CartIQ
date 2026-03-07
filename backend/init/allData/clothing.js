@@ -891,4 +891,4 @@ const clothing = [
   },
 ];
 
-module.exports = { data: clothing };
+export default clothing;
