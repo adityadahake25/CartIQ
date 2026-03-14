@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Products.css";
+import "./AllProducts.css";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
