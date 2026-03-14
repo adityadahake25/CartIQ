@@ -1,0 +1,187 @@
+/* ================= PAGE BACKGROUND ================= */
+
+.productsContainer {
+  padding: 40px 60px;
+  min-height: 100vh;
+
+  background:
+    radial-gradient(circle at top left, #e6f0ff, transparent 40%),
+    radial-gradient(circle at bottom right, #e8ffe9, transparent 40%),
+    linear-gradient(180deg, #f8fbff, #eef4ff);
+}
+
+/* ================= TITLE ================= */
+
+.productsTitle {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #164c93;
+}
+
+/* ================= GRID ================= */
+
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 22px;
+}
+
+/* ================= PRODUCT CARD ================= */
+
+.productCard {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+
+  background: white;
+
+  border: 1px solid rgba(0, 0, 0, 0.05);
+
+  transition: all 0.3s ease;
+
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.06);
+}
+
+.productCard:hover {
+  transform: translateY(-6px);
+
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.12);
+}
+
+/* ================= IMAGE ================= */
+
+.productImage {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+
+  background: #f3f6ff;
+
+  transition: transform 0.35s ease;
+}
+
+.productCard:hover .productImage {
+  transform: scale(1.05);
+}
+
+/* ================= INFO ================= */
+
+.productInfo {
+  padding: 14px;
+  text-align: left;
+}
+
+.productName {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 3px;
+  color: #222;
+}
+
+.productBrand {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+/* ================= PRICE ================= */
+
+.priceSection {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 6px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #164c93;
+}
+
+.mrp {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 12px;
+}
+
+/* ================= RATING ================= */
+
+.rating {
+  display: inline-flex;
+  align-items: center;
+
+  background: #f1f7ff;
+  color: #164c93;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  padding: 3px 8px;
+  border-radius: 14px;
+
+  margin-bottom: 10px;
+}
+
+/* ================= DISCOUNT BADGE ================= */
+
+.discountBadge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  background: linear-gradient(135deg, #ff6a00, #ff3c00);
+
+  color: white;
+
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  font-weight: 600;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* ================= BUTTON ================= */
+
+.addCartBtn {
+  width: 100%;
+
+  border: none;
+  padding: 8px;
+
+  border-radius: 8px;
+  cursor: pointer;
+
+  background: linear-gradient(135deg, #164c93, #2f6bdc);
+
+  color: white;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  transition: all 0.25s ease;
+}
+
+.addCartBtn:hover {
+  transform: translateY(-1px);
+
+  box-shadow: 0 5px 12px rgba(22, 76, 147, 0.3);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .productsContainer {
+    padding: 25px;
+  }
+
+  .productsGrid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+
+  .productImage {
+    height: 140px;
+  }
+}

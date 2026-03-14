@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+  width: 100%;
+  background: white;
+  border-bottom: 2px solid #ddd;
+  padding: 8px 24px;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* ================= LOGO ================= */
+
+.logoImg {
+  height: 60px;
+  width: auto;
+}
+
+/* ================= SEARCH ================= */
+
+.searchContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.searchBar {
+  width: 100%;
+  max-width: 520px;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid gray;
+  padding-left: 45px;
+  padding-right: 15px;
+  font-size: 1rem;
+  outline: none;
+
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23164c93' viewBox='0 0 512 512'><path d='M500.3 443.7 384.6 328a208 208 0 1 0-56.6 56.6l115.7 115.7a40 40 0 0 0 56.6-56.6zM208 352a144 144 0 1 1 0-288 144 144 0 0 1 0 288z'/></svg>")
+    no-repeat 15px center;
+
+  background-size: 18px;
+}
+
+.searchBar:focus {
+  border-color: #164c93;
+  box-shadow: 0 0 5px rgba(22, 76, 147, 0.4);
+}
+
+/* ================= ICON GROUP ================= */
+
+.iconGroup {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.iconGroup i {
+  font-size: 1.25rem;
+  color: #164c93;
+  cursor: pointer;
+}
+
+/* ================= DESKTOP LINKS ================= */
+
+.desktopLinks {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.desktopLinks a {
+  text-decoration: none;
+  color: #164c93;
+  font-size: 1.11rem;
+}
+
+.desktopLinks i {
+  margin-right: 6px;
+}
+
+/* ================= MENU ICON ================= */
+
+.menuIcon {
+  display: none;
+  cursor: pointer;
+}
+
+/* ================= MOBILE MENU ================= */
+
+.mobileMenu {
+  display: none;
+  flex-direction: column;
+  background: white;
+  border-top: 1px solid #ddd;
+}
+
+.mobileMenu a {
+  padding: 14px;
+  text-decoration: none;
+  color: #164c93;
+  font-size: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.showMenu {
+  display: flex;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 600px) {
+  .desktopLinks {
+    display: none;
+  }
+
+  .wishlistIcon {
+    display: none;
+  }
+
+  .menuIcon {
+    display: block;
+  }
+
+  .logoImg {
+    height: 50px;
+  }
+
+  .searchBar {
+    max-width: 200px;
+    height: 36px;
+    font-size: 0.95rem;
+  }
+}
+
+/* ================= MEDIUM ================= */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .desktopLinks {
+    display: none;
+  }
+
+  .menuIcon {
+    display: block;
+  }
+
+  .logoImg {
+    height: 55px;
+  }
+
+  .searchBar {
+    max-width: 360px;
+  }
+}
+
+/* ================= DESKTOP ================= */
+
+@media (min-width: 1025px) {
+  .menuIcon {
+    display: none;
+  }
+
+  .iconGroup {
+    display: none;
+  }
+}

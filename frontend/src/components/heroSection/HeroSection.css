@@ -1,0 +1,333 @@
+/* =========================
+   HERO CATEGORY SECTION
+========================= */
+
+.categoryDiv {
+  display: flex;
+  margin: 30px;
+  opacity: 0.8;
+}
+
+.ctgItem a img {
+  width: 400px;
+  height: 160px;
+}
+
+.midCtg {
+  width: 700px;
+  height: 480px;
+}
+
+.leftCtg {
+  margin-left: -20px;
+}
+
+.midCtg .adImg img {
+  width: 700px;
+  height: 480px;
+  border-radius: 10px;
+  margin-top: 2px;
+}
+
+.ctgItem {
+  position: relative;
+}
+
+.ctgImg {
+  position: relative;
+  display: inline-block;
+}
+
+.ctgImg img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* overlay clipped exactly to image */
+.ctgImg::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 12px;
+  width: 380px;
+  height: 147px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease;
+}
+
+/* darker on hover */
+.ctgImg:hover::after {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.img-card-overlay {
+  width: 360px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+  z-index: 1;
+}
+
+.img-card-overlay i {
+  font-size: 1.1rem;
+  color: #dedede;
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  .categoryDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .leftCtg,
+  .rigthCtg,
+  .midCtg {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .ctgItem {
+    width: 90%;
+    max-width: 320px;
+    height: 120px;
+    border-radius: 7px;
+  }
+
+  .ctgImg {
+    position: relative;
+    width: 100%;
+    height: 120px;
+  }
+
+  .ctgItem a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+    display: block;
+  }
+
+  .ctgImg::after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    width: 318px;
+    height: 110px;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.35);
+    transition: background 0.3s ease;
+  }
+
+  .img-card-overlay {
+    position: absolute;
+    bottom: 8px;
+    left: 12px;
+    width: 85%;
+    color: #fff;
+    font-size: 0.75rem;
+    text-align: left;
+  }
+
+  .img-card-overlay h2 {
+    margin: 0 0 4px 0;
+    font-size: 0.9rem;
+  }
+
+  .img-card-overlay i {
+    font-size: 0.75rem;
+    color: #dedede;
+  }
+
+  .midCtg {
+    height: 230px;
+  }
+
+  .adImg {
+    width: 320px;
+    max-width: 350px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .adImg a {
+    width: 100%;
+    display: flex;
+  }
+
+  .adImg a img.ad {
+    width: 100%;
+    height: 280px;
+    max-height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .categoryDiv {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+    height: 350px;
+  }
+
+  .leftCtg,
+  .rigthCtg {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .midCtg {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+  }
+
+  .leftCtg .ctgItem,
+  .rigthCtg .ctgItem {
+    width: 220px;
+    height: 100px;
+  }
+
+  .ctgImg {
+    position: relative;
+    width: 220px;
+    height: 100px;
+    display: block;
+  }
+
+  .ctgItem a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .ctgImg::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 210px;
+    height: 95px;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease;
+  }
+
+  .img-card-overlay {
+    position: absolute;
+    left: 10px;
+    bottom: 8px;
+    width: 200px;
+    color: #fff;
+    text-align: left;
+    font-size: 0.7rem;
+  }
+
+  .img-card-overlay h2 {
+    margin: 0 0 3px;
+    font-size: 0.8rem;
+  }
+
+  .img-card-overlay i {
+    color: #dedede;
+    font-size: 0.7rem;
+  }
+
+  .adImg {
+    flex: 1;
+    display: flex;
+  }
+
+  .adImg a {
+    flex: 1;
+    display: flex;
+  }
+
+  .adImg a img.ad {
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+    border-radius: 7px;
+    display: block;
+  }
+}
+
+/* =========================
+   SMALL LAPTOP SCREENS
+   (1025px - 1285px)
+========================= */
+
+@media (min-width: 1025px) and (max-width: 1285px) {
+  .categoryDiv {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .leftCtg,
+  .rigthCtg {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* slightly smaller category cards */
+  .ctgItem a img {
+    width: 320px;
+    height: 130px;
+  }
+
+  .ctgImg::after {
+    top: 4px;
+    left: 10px;
+    width: 300px;
+    height: 120px;
+  }
+
+  .img-card-overlay {
+    width: 290px;
+    left: 15px;
+    font-size: 1rem;
+  }
+
+  /* center banner slightly smaller */
+  .midCtg {
+    width: 560px;
+    height: 400px;
+  }
+
+  .midCtg .adImg img {
+    width: 560px;
+    height: 400px;
+  }
+}

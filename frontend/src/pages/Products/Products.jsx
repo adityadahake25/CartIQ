@@ -1,16 +1,16 @@
-import React from "react";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+import "./Products.css";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
 
   const fetchProducts = async () => {
     try {
-      const response = await fetch(`http://localhost:7000/api/products`);
+      const response = await fetch("http://localhost:7000/api/products");
       const data = await response.json();
       setProducts(data);
     } catch (error) {
-      console.log(`Error fetched error : ${error}`);
+      console.log(`Error fetching products: ${error}`);
     }
   };
 
@@ -19,50 +19,45 @@ const Products = () => {
   }, []);
 
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>Products</h1>
+    <div className="productsContainer">
+      <h1 className="productsTitle">Products</h1>
 
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
-          gap: "20px",
-        }}
-      >
+      <div className="productsGrid">
         {products.map((product) => (
-          <div
-            key={product.id}
-            style={{
-              border: "1px solid #ddd",
-              borderRadius: "10px",
-              padding: "10px",
-              textAlign: "center",
-              boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
-            }}
-          >
+          <div key={product.id} className="productCard">
+            {/* Discount badge */}
+            <div className="discountBadge">
+              {product.discountPercentage}% OFF
+            </div>
+
             <img
               src={product.images[0]}
               alt={product.itemName}
-              style={{ width: "100%", height: "180px", objectFit: "cover" }}
+              className="productImage"
             />
 
-            <h3>{product.itemName}</h3>
-            <p>{product.brand}</p>
+            <div className="productInfo">
+              <h3 className="productName">{product.itemName}</h3>
 
-            <p>
-              <b>₹{product.price}</b>{" "}
-              <span style={{ textDecoration: "line-through", color: "gray" }}>
-                ₹{product.mrp}
-              </span>
-            </p>
+              <p className="productBrand">{product.brand}</p>
 
-            <p style={{ color: "green" }}>{product.discountPercentage}% OFF</p>
+              <div className="priceSection">
+                <span className="price">₹{product.price}</span>
 
-            <p>⭐ {product.ratings?.average}</p>
+                <span className="mrp">₹{product.mrp}</span>
+              </div>
+
+              <div className="rating">
+                ⭐ {product.ratings?.average || "4.5"}
+              </div>
+
+              <button className="addCartBtn">Add to Cart</button>
+            </div>
           </div>
         ))}
       </div>
     </div>
   );
 };
+
 export default Products;
