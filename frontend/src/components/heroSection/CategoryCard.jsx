@@ -10,10 +10,6 @@ const CategoryCard = ({ img, link }) => {
           </a>
         </div>
       </div>
-
-      <div className="midCtg"></div>
-
-      <div className="rightCtg"></div>
     </div>
   );
 };

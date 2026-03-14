@@ -74,9 +74,17 @@
   z-index: 1;
 }
 
+/* ADD THIS */
+.img-card-overlay h2 {
+  margin: 0;
+  line-height: 1.2;
+}
+
 .img-card-overlay i {
   font-size: 1.1rem;
   color: #dedede;
+  margin-top: 2px;
+  display: block;
 }
 
 /* =========================
