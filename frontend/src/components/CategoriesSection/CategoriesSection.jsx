@@ -15,12 +15,12 @@ function CategoriesSection() {
 
   return (
     <>
-      <div className="ctgTitle">Categories</div>
+      <div className="title">Categories</div>
 
       <div className="ctgList">
         {categories.map((category, index) => (
-          <div className="mainDiv">
-            <a key={index} className="card ctgCard" href="#">
+          <div className="mainDiv" key={index}>
+            <a className="card ctgCard" href="#">
               <img
                 src={category.img}
                 className="card-img-top"

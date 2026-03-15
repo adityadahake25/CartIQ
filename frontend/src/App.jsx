@@ -1,17 +1,14 @@
 import "./App.css";
-import Navbar from "./components/navbar/Navbar.jsx";
-import AllProducts from "./pages/allProducts/AllProducts.jsx";
-import HeroSection from "./components/heroSection/HeroSection.jsx";
-import CategoriesSection from "./components/CategoriesSection/CategoriesSection.jsx";
+import Home from "./pages/home/Home.jsx";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <>
-      {/* <h1>Hello World</h1> */}
-      <Navbar />
-      <HeroSection />
-      <CategoriesSection />
-      <AllProducts />
+      <BrowserRouter>
+        {/* <h1>Hello World</h1> */}
+        <Home />
+      </BrowserRouter>
     </>
   );
 }
