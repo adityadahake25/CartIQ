@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./CategoriesSection.css";
 
 function CategoriesSection() {
@@ -20,7 +21,10 @@ function CategoriesSection() {
       <div className="ctgList">
         {categories.map((category, index) => (
           <div className="mainDiv" key={index}>
-            <a className="card ctgCard" href="#">
+            <Link
+              to={`/category/${encodeURIComponent(category.name)}`}
+              className="card ctgCard"
+            >
               <img
                 src={category.img}
                 className="card-img-top"
@@ -29,7 +33,7 @@ function CategoriesSection() {
               <div className="card-body cardB">
                 <p className="card-text">{category.name}</p>
               </div>
-            </a>
+            </Link>
           </div>
         ))}
       </div>

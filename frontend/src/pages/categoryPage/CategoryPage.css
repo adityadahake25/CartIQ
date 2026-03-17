@@ -1,0 +1,236 @@
+body {
+  background: #f3f4f6;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 🔥 Banner */
+.category-banner {
+  height: 340px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+/* Gradient overlay */
+.category-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 50%;
+  left: 6%;
+  transform: translateY(-50%);
+  color: white;
+  z-index: 2;
+}
+
+.banner-overlay h1 {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.banner-overlay p {
+  font-size: 18px;
+  opacity: 0.9;
+  margin-top: 8px;
+}
+
+/* 🔥 Layout */
+.category-container {
+  display: flex;
+  gap: 25px;
+  padding: 20px;
+}
+
+/* 🔥 Sidebar (Glass Effect) */
+.filter-sidebar {
+  width: 270px;
+  padding: 20px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.filter-sidebar:hover {
+  transform: translateY(-3px);
+}
+
+.filter-sidebar h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* Sections */
+.filter-section {
+  margin-bottom: 22px;
+}
+
+.filter-section h4 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.filter-section label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Search */
+.filter-section input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Range */
+.filter-section input[type="range"] {
+  width: 100%;
+}
+
+/* Button */
+.apply-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #14b8a6, #0d9488);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.apply-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(13, 148, 136, 0.4);
+}
+
+/* 🔥 Product Section */
+.product-section {
+  flex: 1;
+}
+
+/* Header */
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.product-header p {
+  font-weight: 500;
+}
+
+.product-header select {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+/* 🔥 Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* 🔥 Card */
+.product-card {
+  background: white;
+  border-radius: 16px;
+  padding: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover glow effect */
+.product-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(20, 184, 166, 0.2),
+    transparent
+  );
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.product-card:hover::before {
+  opacity: 1;
+}
+
+.product-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Image */
+.product-card img {
+  width: 100%;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Text */
+.product-card h4 {
+  font-size: 15px;
+  margin: 10px 0 5px;
+  color: #111827;
+}
+
+.product-card p {
+  font-weight: bold;
+  color: #14b8a6;
+  font-size: 16px;
+}
+
+/* 🔥 Responsive */
+@media (max-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .category-container {
+    flex-direction: column;
+  }
+
+  .filter-sidebar {
+    width: 100%;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

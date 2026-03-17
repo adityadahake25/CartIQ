@@ -8,7 +8,6 @@ import FeatureSection from "../../components/featureSection/FeatureSection.jsx";
 const Home = () => {
   return (
     <>
-      <Navbar />
       <HeroSection />
       <CategoriesSection />
       <FeatureSection />
