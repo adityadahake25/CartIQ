@@ -35,17 +35,19 @@
   overflow: hidden;
 
   background: white;
-
   border: 1px solid rgba(0, 0, 0, 0.05);
 
   transition: all 0.3s ease;
-
   box-shadow: 0 5px 14px rgba(0, 0, 0, 0.06);
+
+  /* 🔥 FIX */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .productCard:hover {
   transform: translateY(-6px);
-
   box-shadow: 0 12px 26px rgba(0, 0, 0, 0.12);
 }
 
@@ -57,7 +59,6 @@
   object-fit: cover;
 
   background: #f3f6ff;
-
   transition: transform 0.35s ease;
 }
 
@@ -70,6 +71,11 @@
 .productInfo {
   padding: 14px;
   text-align: left;
+
+  /* 🔥 FIX */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .productName {
@@ -77,6 +83,9 @@
   font-weight: 600;
   margin-bottom: 3px;
   color: #222;
+
+  /* 🔥 optional alignment fix */
+  min-height: 38px;
 }
 
 .productBrand {
@@ -132,7 +141,6 @@
   left: 10px;
 
   background: linear-gradient(135deg, #ff6a00, #ff3c00);
-
   color: white;
 
   font-size: 11px;
@@ -147,26 +155,25 @@
 
 .addCartBtn {
   width: 100%;
-
   border: none;
   padding: 8px;
-
   border-radius: 8px;
   cursor: pointer;
 
   background: linear-gradient(135deg, #164c93, #2f6bdc);
-
   color: white;
 
   font-size: 13px;
   font-weight: 600;
 
   transition: all 0.25s ease;
+
+  /* 🔥 MAIN FIX */
+  margin-top: auto;
 }
 
 .addCartBtn:hover {
   transform: translateY(-1px);
-
   box-shadow: 0 5px 12px rgba(22, 76, 147, 0.3);
 }
 
