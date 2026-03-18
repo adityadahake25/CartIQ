@@ -4,7 +4,7 @@ const petSupplies = [
     itemName: "Grain-free Dry Dog Food (5 kg)",
     brand: "Pawsome",
     description: "High-protein formula with real chicken and vegetables.",
-    category: "Pet Supplies",
+    category: "pet supplies",
 
     price: 3490,
     mrp: 3999,
@@ -40,7 +40,7 @@ const petSupplies = [
     itemName: "Cat Litter Clumping (10L)",
     brand: "FreshPaws",
     description: "Low-dust clumping litter with odor control.",
-    category: "Pet Supplies",
+    category: "pet supplies",
 
     price: 1247,
     mrp: 1499,
@@ -74,7 +74,7 @@ const petSupplies = [
     itemName: "Automatic Pet Feeder (Timed)",
     brand: "FeedBuddy",
     description: "Programmable portions and schedule for daily meals.",
-    category: "Pet Supplies",
+    category: "pet supplies",
 
     price: 4991,
     mrp: 5799,
@@ -111,7 +111,7 @@ const petSupplies = [
     brand: "PlayPurr",
     description:
       "Automatic rotating laser to keep cats active and entertained.",
-    category: "Pet Supplies",
+    category: "pet supplies",
 
     price: 1370,
     mrp: 1599,
@@ -148,7 +148,7 @@ const petSupplies = [
     brand: "WalkSafe",
     description:
       "Padded adjustable harness with reflective strips for evening walks.",
-    category: "Pet Supplies",
+    category: "pet supplies",
 
     price: 1579,
     mrp: 1899,
@@ -183,7 +183,7 @@ const petSupplies = [
     itemName: "Orthopedic Dog Bed (Large)",
     brand: "Pawsome",
     description: "Memory foam bed for joint relief and comfort.",
-    category: "Pet Supplies",
+    category: "pet supplies",
 
     price: 3899,
     mrp: 4599,
@@ -217,7 +217,7 @@ const petSupplies = [
     itemName: "Multi-Level Cat Tree",
     brand: "PlayPurr",
     description: "60-inch tall activity center with scratching posts.",
-    category: "Pet Supplies",
+    category: "pet supplies",
 
     price: 5499,
     mrp: 6299,
@@ -253,7 +253,7 @@ const petSupplies = [
     itemName: "Stainless Steel Pet Fountain",
     brand: "FeedBuddy",
     description: "Filtered 2L automatic water dispenser for cats and dogs.",
-    category: "Pet Supplies",
+    category: "pet supplies",
 
     price: 2499,
     mrp: 2899,
@@ -289,7 +289,7 @@ const petSupplies = [
     itemName: "Pet Grooming Vacuum Kit",
     brand: "FreshPaws",
     description: "Professional deshedding tool with suction attachment.",
-    category: "Pet Supplies",
+    category: "pet supplies",
 
     price: 7999,
     mrp: 8999,
@@ -325,7 +325,7 @@ const petSupplies = [
     itemName: "LED Safety Dog Collar",
     brand: "WalkSafe",
     description: "USB rechargeable glowing collar for night walks.",
-    category: "Pet Supplies",
+    category: "pet supplies",
 
     price: 699,
     mrp: 899,

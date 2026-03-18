@@ -22,7 +22,7 @@ function CategoriesSection() {
         {categories.map((category, index) => (
           <div className="mainDiv" key={index}>
             <Link
-              to={`/category/${encodeURIComponent(category.name)}`}
+              to={`/category/${encodeURIComponent(category.name.toLowerCase())}`}
               className="card ctgCard"
             >
               <img

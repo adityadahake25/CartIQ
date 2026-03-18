@@ -5,7 +5,7 @@ const booksAndMedia = [
     brand: "CodeCraft Press",
     description:
       "Beginner-friendly, step-by-step JavaScript guide with exercises.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 1661,
     mrp: 1999,
@@ -39,7 +39,7 @@ const booksAndMedia = [
     itemName: "Books to Die For",
     brand: "HarborHouse",
     description: "Gripping whodunit set in a coastal town with twists.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 1994,
     mrp: 2299,
@@ -75,7 +75,7 @@ const booksAndMedia = [
     itemName: "Children’s Picture Book — Green Thumb Poppy",
     brand: "BrightPages",
     description: "Illustrated story about kindness and exploration.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 832,
     mrp: 999,
@@ -111,7 +111,7 @@ const booksAndMedia = [
     itemName: "Hatha & Flow Yoga for Beginners",
     brand: "CalmMotion",
     description: "60-minute guided routines for flexibility and relaxation.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 997,
     mrp: 1199,
@@ -146,7 +146,7 @@ const booksAndMedia = [
     itemName: "Harry Potter and the Philosopher's Stone",
     brand: "BloomsBury",
     description: "The magical first book in the Harry Potter series.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 1787,
     mrp: 1999,
@@ -183,7 +183,7 @@ const booksAndMedia = [
     brand: "Orion Books",
     description:
       "A shocking psychological thriller about a woman's act of violence.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 499,
     mrp: 599,
@@ -220,7 +220,7 @@ const booksAndMedia = [
     brand: "Penguin",
     description:
       "An easy and proven way to build good habits and break bad ones.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 550,
     mrp: 699,
@@ -256,7 +256,7 @@ const booksAndMedia = [
     itemName: "The Psychology of Money",
     brand: "Harriman House",
     description: "Timeless lessons on wealth, greed, and happiness.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 399,
     mrp: 499,
@@ -293,7 +293,7 @@ const booksAndMedia = [
     brand: "Packt Publishing",
     description:
       "Build maintainable and reusable code with React and TypeScript.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 2899,
     mrp: 3299,
@@ -330,7 +330,7 @@ const booksAndMedia = [
     brand: "Vintage",
     description:
       "Explores the history of the human species from the Stone Age.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 599,
     mrp: 699,
@@ -367,7 +367,7 @@ const booksAndMedia = [
     brand: "HarperCollins",
     description:
       "A fable about following your dream and listening to your heart.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 299,
     mrp: 399,
@@ -403,7 +403,7 @@ const booksAndMedia = [
     itemName: "A Song of Ice and Fire (Set)",
     brand: "Bantam Books",
     description: "The complete 5-book box set of the Game of Thrones series.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 3499,
     mrp: 3999,
@@ -439,7 +439,7 @@ const booksAndMedia = [
     itemName: "Eloquent JavaScript",
     brand: "No Starch Press",
     description: "A modern introduction to programming with JavaScript.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 2199,
     mrp: 2499,
@@ -473,7 +473,7 @@ const booksAndMedia = [
     itemName: "Deep Work",
     brand: "Grand Central Publishing",
     description: "Rules for focused success in a distracted world.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 450,
     mrp: 599,
@@ -510,7 +510,7 @@ const booksAndMedia = [
     brand: "Prentice Hall",
     description:
       "A handbook of agile software craftsmanship by Robert C. Martin.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 2499,
     mrp: 2999,
@@ -546,7 +546,7 @@ const booksAndMedia = [
     itemName: "The Pragmatic Programmer",
     brand: "Addison-Wesley",
     description: "Your journey to mastery in software development.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 2299,
     mrp: 2699,
@@ -580,7 +580,7 @@ const booksAndMedia = [
     itemName: "Ikigai",
     brand: "Penguin Life",
     description: "The Japanese secret to a long and happy life.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 399,
     mrp: 499,
@@ -616,7 +616,7 @@ const booksAndMedia = [
     itemName: "Start With Why",
     brand: "Portfolio",
     description: "How great leaders inspire everyone to take action.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 450,
     mrp: 550,
@@ -653,7 +653,7 @@ const booksAndMedia = [
     brand: "Farrar, Straus and Giroux",
     description:
       "A groundbreaking exploration of how we think and make decisions.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 699,
     mrp: 899,
@@ -689,7 +689,7 @@ const booksAndMedia = [
     itemName: "Rich Dad Poor Dad",
     brand: "Plata Publishing",
     description: "What the rich teach their kids about money.",
-    category: "Books & Media",
+    category: "books & media",
 
     price: 399,
     mrp: 499,

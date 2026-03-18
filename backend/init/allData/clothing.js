@@ -4,7 +4,7 @@ const clothing = [
     itemName: "Men’s Slim Fit Jeans",
     brand: "UrbanThread",
     description: "Stretch denim with tapered leg.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 1599,
     mrp: 1999,
@@ -40,7 +40,7 @@ const clothing = [
     itemName: "Women’s V-neck T-shirt",
     brand: "CottonCloud",
     description: "Soft cotton fabric for comfort.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 699,
     mrp: 899,
@@ -76,7 +76,7 @@ const clothing = [
     itemName: "Lightweight Windbreaker Jacket",
     brand: "AeroWear",
     description: "Water-resistant and breathable jacket.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 2499,
     mrp: 2999,
@@ -112,7 +112,7 @@ const clothing = [
     itemName: "Kids’ Cartoon Hoodie",
     brand: "LittleJoy",
     description: "Cozy hoodie with fun cartoon prints.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 799,
     mrp: 999,
@@ -148,7 +148,7 @@ const clothing = [
     itemName: "Women’s Slip-on Loafers",
     brand: "StepEase",
     description: "Faux-leather loafers with cushioned insole.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 1299,
     mrp: 1599,
@@ -182,7 +182,7 @@ const clothing = [
     itemName: "Formal White Shirt",
     brand: "OfficeLine",
     description: "Classic button-up formal shirt.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 999,
     mrp: 1299,
@@ -218,7 +218,7 @@ const clothing = [
     itemName: "Men’s Casual Sneakers",
     brand: "StreetStep",
     description: "Comfortable sneakers for daily wear.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 1799,
     mrp: 2199,
@@ -254,7 +254,7 @@ const clothing = [
     itemName: "Women’s Anarkali Kurta",
     brand: "Ethniq",
     description: "Printed cotton kurta with flared design.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 1499,
     mrp: 1899,
@@ -290,7 +290,7 @@ const clothing = [
     itemName: "Sports Track Pants",
     brand: "FlexiFit",
     description: "Breathable stretch fabric for workouts.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 899,
     mrp: 1199,
@@ -326,7 +326,7 @@ const clothing = [
     itemName: "Kids Denim Shorts",
     brand: "MiniTrend",
     description: "Trendy denim shorts for kids.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 499,
     mrp: 649,
@@ -362,7 +362,7 @@ const clothing = [
     itemName: "Men's Polo T-Shirt",
     brand: "OfficeLine",
     description: "Classic fit cotton pique polo for business casual wear.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 1199,
     mrp: 1499,
@@ -398,7 +398,7 @@ const clothing = [
     itemName: "Women's High-Waisted Leggings",
     brand: "FlexiFit",
     description: "Squat-proof, moisture-wicking fabric for yoga and gym.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 1499,
     mrp: 1799,
@@ -434,7 +434,7 @@ const clothing = [
     itemName: "Unisex Canvas Sneakers",
     brand: "StreetStep",
     description: "Classic lace-up low-top sneakers with rubber sole.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 1999,
     mrp: 2399,
@@ -470,7 +470,7 @@ const clothing = [
     itemName: "Men's Cargo Shorts",
     brand: "UrbanThread",
     description: "Multi-pocket durable cotton shorts for outdoor utility.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 1299,
     mrp: 1599,
@@ -506,7 +506,7 @@ const clothing = [
     itemName: "Women's Denim Jacket",
     brand: "CottonCloud",
     description: "Vintage wash oversized denim jacket with metal buttons.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 2899,
     mrp: 3499,
@@ -540,7 +540,7 @@ const clothing = [
     itemName: "Kids' Waterproof Raincoat",
     brand: "LittleJoy",
     description: "Bright hooded raincoat with reflective safety strips.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 999,
     mrp: 1299,
@@ -576,7 +576,7 @@ const clothing = [
     itemName: "Men's Leather Belt",
     brand: "OfficeLine",
     description: "100% genuine leather belt with brushed nickel buckle.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 899,
     mrp: 1099,
@@ -612,7 +612,7 @@ const clothing = [
     itemName: "Women's Floral Maxi Dress",
     brand: "Ethniq",
     description: "Flowy summer dress with adjustable waist tie.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 2499,
     mrp: 2999,
@@ -646,7 +646,7 @@ const clothing = [
     itemName: "Men's Pullover Hoodie",
     brand: "AeroWear",
     description: "Heavyweight fleece hoodie with kangaroo pocket.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 1799,
     mrp: 2199,
@@ -680,7 +680,7 @@ const clothing = [
     itemName: "Women's Tote Bag",
     brand: "StepEase",
     description: "Large capacity faux-leather tote for work or travel.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 1599,
     mrp: 1999,
@@ -715,7 +715,7 @@ const clothing = [
     itemName: "Kids' 5-Pack Cotton Socks",
     brand: "MiniTrend",
     description: "Breathable and colorful socks with reinforced heels.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 449,
     mrp: 599,
@@ -751,7 +751,7 @@ const clothing = [
     itemName: "Men's Performance Polo",
     brand: "FlexiFit",
     description: "Quick-dry athletic polo for golf and active sports.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 1399,
     mrp: 1699,
@@ -787,7 +787,7 @@ const clothing = [
     itemName: "Women's Leather Crossbody Bag",
     brand: "StepEase",
     description: "Minimalist small handbag with adjustable strap.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 1899,
     mrp: 2299,
@@ -823,7 +823,7 @@ const clothing = [
     itemName: "Men's Chino Trousers",
     brand: "UrbanThread",
     description: "Slim-fit cotton chinos for a versatile look.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 1699,
     mrp: 2099,
@@ -859,7 +859,7 @@ const clothing = [
     itemName: "Unisex Beanie Hat",
     brand: "AeroWear",
     description: "Soft rib-knit acrylic beanie for cold weather.",
-    category: "Clothing & Apparel",
+    category: "clothing & apparel",
 
     price: 399,
     mrp: 499,

@@ -4,7 +4,7 @@ const beautyAndPersonalCare = [
     itemName: "Hydrating Face Moisturizer",
     brand: "PureGlow",
     description: "Moisturizer with hyaluronic acid.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 499,
     mrp: 599,
@@ -40,7 +40,7 @@ const beautyAndPersonalCare = [
     itemName: "Sulfate-free Shampoo",
     brand: "SilkStrand",
     description: "Gentle cleansing shampoo.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 349,
     mrp: 420,
@@ -76,7 +76,7 @@ const beautyAndPersonalCare = [
     itemName: "Matte Liquid Lipstick",
     brand: "ColorMuse",
     description: "Long-lasting matte lipstick.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 299,
     mrp: 399,
@@ -112,7 +112,7 @@ const beautyAndPersonalCare = [
     itemName: "Electric Toothbrush",
     brand: "BrightSmile",
     description: "Sonic cleaning toothbrush.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 1499,
     mrp: 1799,
@@ -148,7 +148,7 @@ const beautyAndPersonalCare = [
     itemName: "Men’s Deodorant Spray",
     brand: "ActiveShield",
     description: "48-hour protection deodorant.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 199,
     mrp: 249,
@@ -182,7 +182,7 @@ const beautyAndPersonalCare = [
     itemName: "Aloe Vera Gel (200ml)",
     brand: "GreenGlow",
     description: "Multi-purpose soothing aloe gel.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 250,
     mrp: 320,
@@ -216,7 +216,7 @@ const beautyAndPersonalCare = [
     itemName: "Nail Polish Remover",
     brand: "ShineOff",
     description: "Gentle acetone-free remover.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 120,
     mrp: 150,
@@ -252,7 +252,7 @@ const beautyAndPersonalCare = [
     itemName: "Herbal Face Wash",
     brand: "NatureBliss",
     description: "Neem and tulsi face cleanser.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 180,
     mrp: 220,
@@ -288,7 +288,7 @@ const beautyAndPersonalCare = [
     itemName: "Hair Conditioner (300ml)",
     brand: "SilkyTouch",
     description: "Smoothening conditioner for frizz control.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 310,
     mrp: 370,
@@ -322,7 +322,7 @@ const beautyAndPersonalCare = [
     itemName: "Body Lotion (400ml)",
     brand: "Nivea",
     description: "Deep nourishing lotion.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 420,
     mrp: 499,
@@ -357,7 +357,7 @@ const beautyAndPersonalCare = [
     itemName: "Vitamin C Serum",
     brand: "PureGlow",
     description: "Brightening serum for even skin tone.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 699,
     mrp: 850,
@@ -393,7 +393,7 @@ const beautyAndPersonalCare = [
     itemName: "Beard Oil",
     brand: "ActiveShield",
     description: "Sandalwood scented grooming oil.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 399,
     mrp: 499,
@@ -429,7 +429,7 @@ const beautyAndPersonalCare = [
     itemName: "Detangling Hair Brush",
     brand: "SilkStrand",
     description: "Flexible bristles for painless brushing.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 250,
     mrp: 320,
@@ -465,7 +465,7 @@ const beautyAndPersonalCare = [
     itemName: "Sunscreen SPF 50",
     brand: "GreenGlow",
     description: "Non-greasy broad spectrum protection.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 550,
     mrp: 699,
@@ -501,7 +501,7 @@ const beautyAndPersonalCare = [
     itemName: "Eyeshadow Palette",
     brand: "ColorMuse",
     description: "12 shimmer and matte earthy tones.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 899,
     mrp: 1099,
@@ -537,7 +537,7 @@ const beautyAndPersonalCare = [
     itemName: "Makeup Sponge Set",
     brand: "PureGlow",
     description: "3-piece blending sponges.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 299,
     mrp: 380,
@@ -571,7 +571,7 @@ const beautyAndPersonalCare = [
     itemName: "Facial Steamer",
     brand: "BrightSmile",
     description: "Nano-ionic professional face steamer.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 1999,
     mrp: 2399,
@@ -607,7 +607,7 @@ const beautyAndPersonalCare = [
     itemName: "Clay Face Mask",
     brand: "NatureBliss",
     description: "Deep pore cleansing kaolin clay.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 450,
     mrp: 550,
@@ -643,7 +643,7 @@ const beautyAndPersonalCare = [
     itemName: "Mascara Waterproof",
     brand: "ColorMuse",
     description: "Volumizing jet black mascara.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 350,
     mrp: 450,
@@ -679,7 +679,7 @@ const beautyAndPersonalCare = [
     itemName: "Dry Shampoo",
     brand: "SilkStrand",
     description: "Instant refresh for oily hair.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 499,
     mrp: 620,
@@ -714,7 +714,7 @@ const beautyAndPersonalCare = [
     itemName: "Epsom Salt Soak",
     brand: "NatureBliss",
     description: "Lavender scented muscle recovery bath salt.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 320,
     mrp: 399,
@@ -750,7 +750,7 @@ const beautyAndPersonalCare = [
     itemName: "Lip Balm Set",
     brand: "GreenGlow",
     description: "Pack of 3 fruity organic lip balms.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 210,
     mrp: 260,
@@ -786,7 +786,7 @@ const beautyAndPersonalCare = [
     itemName: "Hand Cream",
     brand: "Nivea",
     description: "Intensive repair cream for dry hands.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 150,
     mrp: 199,
@@ -822,7 +822,7 @@ const beautyAndPersonalCare = [
     itemName: "Silk Eye Mask",
     brand: "PureGlow",
     description: "100% mulberry silk sleep mask.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 599,
     mrp: 720,
@@ -858,7 +858,7 @@ const beautyAndPersonalCare = [
     itemName: "Nail Art Kit",
     brand: "ShineOff",
     description: "Stickers, brushes and dotting tools set.",
-    category: "Beauty & Personal Care",
+    category: "beauty & personal care",
 
     price: 750,
     mrp: 899,

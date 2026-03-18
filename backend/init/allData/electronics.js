@@ -4,7 +4,7 @@ const electronics = [
     itemName: "Wireless Bluetooth Earbuds",
     brand: "SoundWave",
     description: "True wireless earbuds with mic.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 2199,
     mrp: 2699,
@@ -40,7 +40,7 @@ const electronics = [
     itemName: "27-inch 4K IPS Monitor",
     brand: "VisionPro",
     description: "Ultra HD display for creators.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 24999,
     mrp: 29999,
@@ -76,7 +76,7 @@ const electronics = [
     itemName: "Power Bank 20,000mAh",
     brand: "ChargeMax",
     description: "High-capacity fast charging power bank.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 1899,
     mrp: 2299,
@@ -112,7 +112,7 @@ const electronics = [
     itemName: "Smart Wi-Fi Plug",
     brand: "HomeLink",
     description: "Control devices with app or voice.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 999,
     mrp: 1299,
@@ -146,7 +146,7 @@ const electronics = [
     itemName: "Entry-level DSLR Camera",
     brand: "PixelCraft",
     description: "24MP DSLR camera with kit lens.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 38999,
     mrp: 44999,
@@ -182,7 +182,7 @@ const electronics = [
     itemName: "Wireless Keyboard & Mouse Combo",
     brand: "TechEase",
     description: "Slim wireless keyboard with mouse.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 1499,
     mrp: 1799,
@@ -218,7 +218,7 @@ const electronics = [
     itemName: "Noise Cancelling Headphones",
     brand: "SoundSphere",
     description: "Over-ear headphones with ANC.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 4999,
     mrp: 5999,
@@ -254,7 +254,7 @@ const electronics = [
     itemName: "Smartwatch Series X",
     brand: "TimeTech",
     description: "Fitness tracking and notifications.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 8999,
     mrp: 10999,
@@ -290,7 +290,7 @@ const electronics = [
     itemName: "Portable Bluetooth Speaker",
     brand: "BoomBox",
     description: "Waterproof speaker with deep bass.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 2599,
     mrp: 3099,
@@ -326,7 +326,7 @@ const electronics = [
     itemName: "Android Tablet (10-inch)",
     brand: "TabWorld",
     description: "Quad-core tablet with Wi-Fi and 4G.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 12999,
     mrp: 14999,
@@ -361,7 +361,7 @@ const electronics = [
     itemName: "4K Ultra HD Action Camera",
     brand: "PixelCraft",
     description: "Waterproof sports camera with wide-angle lens.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 7499,
     mrp: 8999,
@@ -397,7 +397,7 @@ const electronics = [
     itemName: "Mechanical Gaming Keyboard",
     brand: "TechEase",
     description: "RGB backlit keys with blue switches for tactile feedback.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 3299,
     mrp: 3999,
@@ -433,7 +433,7 @@ const electronics = [
     itemName: "USB-C Hub 7-in-1",
     brand: "ChargeMax",
     description: "Multi-port adapter with HDMI, USB 3.0, and SD slot.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 2499,
     mrp: 2999,
@@ -469,7 +469,7 @@ const electronics = [
     itemName: "Smart Home Security Camera",
     brand: "HomeLink",
     description: "1080p Wi-Fi camera with motion detection and night vision.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 2199,
     mrp: 2699,
@@ -505,7 +505,7 @@ const electronics = [
     itemName: "Gaming Mouse (12000 DPI)",
     brand: "TechEase",
     description: "Ergonomic wired mouse with programmable buttons.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 1599,
     mrp: 1999,
@@ -541,7 +541,7 @@ const electronics = [
     itemName: "External SSD (1TB)",
     brand: "ChargeMax",
     description: "High-speed portable storage for PC and Mac.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 8999,
     mrp: 10499,
@@ -577,7 +577,7 @@ const electronics = [
     itemName: "Bluetooth Graphics Tablet",
     brand: "VisionPro",
     description: "Digital drawing pad with pressure-sensitive stylus.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 5499,
     mrp: 6499,
@@ -611,7 +611,7 @@ const electronics = [
     itemName: "Mini Projector (1080p)",
     brand: "VisionPro",
     description: "Portable cinema projector for home theater use.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 11999,
     mrp: 13999,
@@ -647,7 +647,7 @@ const electronics = [
     itemName: "Noise-Cancelling Earplugs",
     brand: "SoundWave",
     description: "Silicon high-fidelity earplugs for concerts and focus.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 899,
     mrp: 1099,
@@ -683,7 +683,7 @@ const electronics = [
     itemName: "Dual Monitor Stand",
     brand: "TechEase",
     description: "Heavy-duty desk mount for dual screens.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 3899,
     mrp: 4599,
@@ -719,7 +719,7 @@ const electronics = [
     itemName: "Smart LED Light Strip (5m)",
     brand: "HomeLink",
     description: "Wi-Fi enabled RGB strip compatible with Alexa.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 1499,
     mrp: 1799,
@@ -755,7 +755,7 @@ const electronics = [
     itemName: "Wireless Lapel Microphone",
     brand: "SoundWave",
     description: "Plug-and-play mic for vloggers and content creators.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 2999,
     mrp: 3599,
@@ -791,7 +791,7 @@ const electronics = [
     itemName: "Ring Light with Tripod",
     brand: "PixelCraft",
     description: "10-inch LED ring light for video calls and makeup.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 1899,
     mrp: 2299,
@@ -827,7 +827,7 @@ const electronics = [
     itemName: "Compact Bluetooth Keyboard",
     brand: "TechEase",
     description: "Slim multi-device keyboard for tablets and phones.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 2299,
     mrp: 2699,
@@ -861,7 +861,7 @@ const electronics = [
     itemName: "Fast Wireless Charger",
     brand: "ChargeMax",
     description: "15W Qi-certified charging pad with LED indicator.",
-    category: "Electronics",
+    category: "electronics",
 
     price: 1299,
     mrp: 1599,

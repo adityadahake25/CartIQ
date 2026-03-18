@@ -6,7 +6,7 @@ const grocery = [
     itemName: "Organic Whole Milk (1L)",
     brand: "FarmFresh",
     description: "Pasteurized organic milk from grass-fed cows.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 89,
     mrp: 95,
@@ -44,7 +44,7 @@ const grocery = [
     itemName: "Classic Basmati Rice (5kg)",
     brand: "GoldenGrain",
     description: "Long-grain aromatic basmati rice.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 1350,
     mrp: 1500,
@@ -82,7 +82,7 @@ const grocery = [
     itemName: "Extra Virgin Olive Oil (500ml)",
     brand: "VerdeOlio",
     description: "Cold-pressed olive oil rich in flavor.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 650,
     mrp: 720,
@@ -121,7 +121,7 @@ const grocery = [
     itemName: "Crunchy Peanut Butter (340g)",
     brand: "NuttyNest",
     description: "Roasted peanuts with crunchy texture.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 299,
     mrp: 330,
@@ -160,7 +160,7 @@ const grocery = [
     itemName: "Organic Bananas (1kg)",
     brand: "NatureBasket",
     description: "Ripe bananas, ideal for snacking.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 60,
     mrp: 70,
@@ -198,7 +198,7 @@ const grocery = [
     itemName: "Brown Bread (400g)",
     brand: "BakeHouse",
     description: "Freshly baked whole wheat bread loaf.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 45,
     mrp: 50,
@@ -236,7 +236,7 @@ const grocery = [
     itemName: "Organic Honey (250g)",
     brand: "BeePure",
     description: "Natural honey sourced from wild forests.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 210,
     mrp: 240,
@@ -273,7 +273,7 @@ const grocery = [
     itemName: "Potato Chips (200g)",
     brand: "CrispyBite",
     description: "Classic salted potato chips.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 50,
     mrp: 60,
@@ -311,7 +311,7 @@ const grocery = [
     itemName: "Green Tea (100 bags)",
     brand: "HerbalSip",
     description: "Refreshing green tea rich in antioxidants.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 340,
     mrp: 380,
@@ -349,7 +349,7 @@ const grocery = [
     itemName: "Organic Tomatoes (1kg)",
     brand: "FreshHarvest",
     description: "Juicy farm-fresh tomatoes.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 90,
     mrp: 110,
@@ -387,7 +387,7 @@ const grocery = [
     itemName: "Greek Yogurt (500g)",
     brand: "DairyPure",
     description: "Thick and creamy probiotic yogurt.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 180,
     mrp: 210,
@@ -425,7 +425,7 @@ const grocery = [
     itemName: "Organic Quinoa (1kg)",
     brand: "SuperFoods",
     description: "Triple-rinsed white quinoa grains.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 450,
     mrp: 520,
@@ -463,7 +463,7 @@ const grocery = [
     itemName: "Almond Milk (1L)",
     brand: "NutriDrink",
     description: "Unsweetened vanilla almond milk.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 250,
     mrp: 290,
@@ -501,7 +501,7 @@ const grocery = [
     itemName: "Dark Chocolate (100g)",
     brand: "CocoaCrave",
     description: "85% Cocoa single-origin chocolate bar.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 199,
     mrp: 230,
@@ -537,7 +537,7 @@ const grocery = [
     itemName: "Rolled Oats (1kg)",
     brand: "MorningOats",
     description: "Whole grain oats for a healthy breakfast.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 210,
     mrp: 250,
@@ -575,7 +575,7 @@ const grocery = [
     itemName: "Avocados (Pack of 2)",
     brand: "FreshHarvest",
     description: "Creamy Hass avocados.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 350,
     mrp: 390,
@@ -613,7 +613,7 @@ const grocery = [
     itemName: "Cold Brew Coffee (500ml)",
     brand: "BeanBlast",
     description: "Ready-to-drink smooth cold brew.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 150,
     mrp: 180,
@@ -651,7 +651,7 @@ const grocery = [
     itemName: "Whole Wheat Pasta (500g)",
     brand: "Italiano",
     description: "Fusilli pasta made from 100% durum wheat.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 120,
     mrp: 150,
@@ -689,7 +689,7 @@ const grocery = [
     itemName: "Sea Salt (500g)",
     brand: "OceanGrit",
     description: "Fine grain natural sea salt.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 65,
     mrp: 80,
@@ -727,7 +727,7 @@ const grocery = [
     itemName: "Sparkling Water (750ml)",
     brand: "FizzPure",
     description: "Naturally carbonated mineral water.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 95,
     mrp: 120,
@@ -765,7 +765,7 @@ const grocery = [
     itemName: "Organic Eggs (Dozen)",
     brand: "FarmFresh",
     description: "Free-range brown eggs.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 180,
     mrp: 210,
@@ -803,7 +803,7 @@ const grocery = [
     itemName: "Red Lentils (1kg)",
     brand: "PulsePlus",
     description: "Split red lentils high in protein.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 140,
     mrp: 170,
@@ -841,7 +841,7 @@ const grocery = [
     itemName: "Coconut Oil (500ml)",
     brand: "VerdeOlio",
     description: "Extra virgin cold-pressed coconut oil.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 320,
     mrp: 360,
@@ -880,7 +880,7 @@ const grocery = [
     itemName: "Blueberries (125g)",
     brand: "NatureBasket",
     description: "Fresh antioxidant-rich blueberries.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 400,
     mrp: 450,
@@ -918,7 +918,7 @@ const grocery = [
     itemName: "Cheddar Cheese (200g)",
     brand: "DairyPure",
     description: "Sharp aged white cheddar.",
-    category: "Grocery",
+    category: "grocery",
 
     price: 280,
     mrp: 320,

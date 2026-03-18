@@ -5,7 +5,7 @@ const officeAndStationery = [
     brand: "ClickEase",
     description:
       "Contoured design with adjustable DPI for comfortable long use.",
-    category: "Office & Stationery",
+    category: "office & stationery",
 
     price: 2085,
     mrp: 2499,
@@ -41,7 +41,7 @@ const officeAndStationery = [
     itemName: "A4 Spiral Notebook (200 pages)",
     brand: "NoteCraft",
     description: "College-ruled durable paper for notes and planning.",
-    category: "Office & Stationery",
+    category: "office & stationery",
 
     price: 540,
     mrp: 699,
@@ -77,7 +77,7 @@ const officeAndStationery = [
     itemName: "Ballpoint Pen (Pack of 10)",
     brand: "SmoothWrite",
     description: "Quick-dry ink with comfortable grip; reliable everyday pen.",
-    category: "Office & Stationery",
+    category: "office & stationery",
 
     price: 414,
     mrp: 499,
@@ -113,7 +113,7 @@ const officeAndStationery = [
     itemName: "Adjustable Laptop Stand",
     brand: "DeskRise",
     description: "Foldable stand to improve ergonomics and cooling.",
-    category: "Office & Stationery",
+    category: "office & stationery",
 
     price: 2410,
     mrp: 2899,
@@ -147,7 +147,7 @@ const officeAndStationery = [
     itemName: "Whiteboard Sticky Notes (Multicolor)",
     brand: "QuickJot",
     description: "Reusable sticky notes for brainstorming and reminders.",
-    category: "Office & Stationery",
+    category: "office & stationery",
 
     price: 685,
     mrp: 799,
@@ -183,7 +183,7 @@ const officeAndStationery = [
     itemName: "Dry Erase Whiteboard (2x3 ft)",
     brand: "NoteCraft",
     description: "Magnetic scratch-resistant surface for office presentations.",
-    category: "Office & Stationery",
+    category: "office & stationery",
 
     price: 1899,
     mrp: 2299,
@@ -219,7 +219,7 @@ const officeAndStationery = [
     itemName: "Heavy Duty Stapler",
     brand: "SmoothWrite",
     description: "All-metal construction, staples up to 50 sheets easily.",
-    category: "Office & Stationery",
+    category: "office & stationery",
 
     price: 749,
     mrp: 899,
@@ -253,7 +253,7 @@ const officeAndStationery = [
     itemName: "Mesh Desk Organizer",
     brand: "DeskRise",
     description: "6-compartment tray for pens, clips, and mail.",
-    category: "Office & Stationery",
+    category: "office & stationery",
 
     price: 899,
     mrp: 1099,
@@ -288,7 +288,7 @@ const officeAndStationery = [
     brand: "QuickJot",
     description:
       "High-security shredder for sensitive documents and credit cards.",
-    category: "Office & Stationery",
+    category: "office & stationery",
 
     price: 4299,
     mrp: 4999,
@@ -322,7 +322,7 @@ const officeAndStationery = [
     itemName: "Leather Executive Journal",
     brand: "NoteCraft",
     description: "Refillable vintage leather cover with premium lined paper.",
-    category: "Office & Stationery",
+    category: "office & stationery",
 
     price: 1250,
     mrp: 1499,

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./CategoryPage.css";
 
@@ -6,21 +6,42 @@ const CategoryPage = () => {
   const { categoryName } = useParams();
   const category = decodeURIComponent(categoryName);
 
-  // 🔥 Image Mapping
-  const categoryImageMap = {
-    Grocery: "Grocery.png",
-    Electronics: "Electronics.png",
-    "Clothing & Apparel": "Clothing-&-Apparel.png",
-    "Beauty & Personal Care": "Beauty-&-Personal-Care.png",
-    "Books & Media": "Books-&-Media.png",
-    "Sports & Outdoors": "Sports-&-Outdoors.png",
-    "Home & Kitchen": "Home-&-Kitchen.png",
-    "Office & Stationery": "Office-&-Stationery.png",
-    "Pet Supplies": "Pet-Supplies.png",
-    "Baby & Kids": "Baby-&-Kids.png",
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  const fetchProducts = async () => {
+    try {
+      const response = await fetch(
+        `http://localhost:7000/api/products?category=${encodeURIComponent(category)}`,
+      );
+      const data = await response.json();
+      setProducts(data);
+    } catch (error) {
+      console.log("Error fetching products:", error);
+    } finally {
+      setLoading(false);
+    }
   };
 
-  const imageName = categoryImageMap[category];
+  useEffect(() => {
+    fetchProducts();
+  }, [category]);
+
+  // 🔥 Image Mapping
+  const categoryImageMap = {
+    grocery: "Grocery.png",
+    electronics: "Electronics.png",
+    "clothing & apparel": "Clothing-&-Apparel.png",
+    "beauty & personal care": "Beauty-&-Personal-Care.png",
+    "books & media": "Books-&-Media.png",
+    "sports & outdoors": "Sports-&-Outdoors.png",
+    "home & kitchen": "Home-&-Kitchen.png",
+    "office & stationery": "Office-&-Stationery.png",
+    "pet supplies": "Pet-Supplies.png",
+    "baby & kids": "Baby-&-Kids.png",
+  };
+
+  const imageName = categoryImageMap[category] || "default.png";
 
   return (
     <div className="category-page">
@@ -30,14 +51,8 @@ const CategoryPage = () => {
         style={{
           backgroundImage: `url(/CategoryADTemplate/${imageName})`,
         }}
-      >
-        <div className="banner-overlay">
-          <h1>{category}</h1>
-          <p>Explore Our Latest Products</p>
-        </div>
-      </div>
+      ></div>
 
-      {/* 🔥 Main Content */}
       <div className="category-container">
         {/* Sidebar */}
         <div className="filter-sidebar">
@@ -46,18 +61,6 @@ const CategoryPage = () => {
           <div className="filter-section">
             <h4>Brand</h4>
             <input type="text" placeholder="Search brand..." />
-            <label>
-              <input type="checkbox" /> Apple
-            </label>
-            <label>
-              <input type="checkbox" /> Samsung
-            </label>
-            <label>
-              <input type="checkbox" /> Nike
-            </label>
-            <label>
-              <input type="checkbox" /> Adidas
-            </label>
           </div>
 
           <div className="filter-section">
@@ -71,26 +74,6 @@ const CategoryPage = () => {
             <label>
               <input type="checkbox" /> 4★ & above
             </label>
-            <label>
-              <input type="checkbox" /> 3★ & above
-            </label>
-          </div>
-
-          <div className="filter-section">
-            <h4>Discount</h4>
-            <label>
-              <input type="checkbox" /> 10%+
-            </label>
-            <label>
-              <input type="checkbox" /> 25%+
-            </label>
-          </div>
-
-          <div className="filter-section">
-            <h4>Availability</h4>
-            <label>
-              <input type="checkbox" /> In Stock
-            </label>
           </div>
 
           <button className="apply-btn">Apply Filters</button>
@@ -99,7 +82,8 @@ const CategoryPage = () => {
         {/* Products */}
         <div className="product-section">
           <div className="product-header">
-            <p>Showing 12 Products</p>
+            <p>Showing {products.length} Products</p>
+
             <select>
               <option>Sort by Popularity</option>
               <option>Price Low to High</option>
@@ -107,17 +91,53 @@ const CategoryPage = () => {
             </select>
           </div>
 
-          <div className="product-grid">
-            {Array(12)
-              .fill()
-              .map((_, i) => (
-                <div className="product-card" key={i}>
-                  <img src="/CategoryList/ctg1.png" alt="" />
-                  <h4>Sample Product</h4>
-                  <p>₹499</p>
-                </div>
-              ))}
-          </div>
+          {/* Loading */}
+          {loading ? (
+            <h2>Loading...</h2>
+          ) : (
+            <div className="product-grid">
+              {products.length === 0 ? (
+                <p>No products found</p>
+              ) : (
+                products.map((product) => (
+                  <div className="product-card" key={product.id}>
+                    {/* Discount */}
+                    {product.discountPercentage && (
+                      <div className="discountBadge">
+                        {product.discountPercentage}% OFF
+                      </div>
+                    )}
+
+                    {/* Image */}
+                    <img
+                      src={product.images?.[0] || "/default.png"}
+                      alt={product.itemName}
+                    />
+
+                    {/* Info */}
+                    <h4>{product.itemName}</h4>
+                    <p className="brand">{product.brand}</p>
+
+                    {/* Price */}
+                    <div className="price">
+                      ₹{product.price}
+                      {product.mrp && (
+                        <span className="mrp">₹{product.mrp}</span>
+                      )}
+                    </div>
+
+                    {/* Rating */}
+                    <div className="rating">
+                      ⭐ {product.ratings?.average || 4.5}
+                    </div>
+
+                    {/* Button */}
+                    <button className="addCartBtn">Add to Cart</button>
+                  </div>
+                ))
+              )}
+            </div>
+          )}
         </div>
       </div>
     </div>

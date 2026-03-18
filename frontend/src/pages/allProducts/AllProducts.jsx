@@ -24,14 +24,16 @@ const Products = () => {
 
       <div className="productsGrid">
         {products.map((product) => (
-          <div key={product.id} className="productCard">
+          <div key={product._id} className="productCard">
             {/* Discount badge */}
-            <div className="discountBadge">
-              {product.discountPercentage}% OFF
-            </div>
+            {product.discountPercentage && (
+              <div className="discountBadge">
+                {product.discountPercentage}% OFF
+              </div>
+            )}
 
             <img
-              src={product.images[0]}
+              src={product.images?.[0] || "/default.png"}
               alt={product.itemName}
               className="productImage"
             />
@@ -44,7 +46,7 @@ const Products = () => {
               <div className="priceSection">
                 <span className="price">₹{product.price}</span>
 
-                <span className="mrp">₹{product.mrp}</span>
+                {product.mrp && <span className="mrp">₹{product.mrp}</span>}
               </div>
 
               <div className="rating">

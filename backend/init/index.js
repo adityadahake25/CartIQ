@@ -36,7 +36,12 @@ const initDB = async () => {
       ...sportsAndOutdoors,
     ];
 
-    await Product.insertMany(allProducts);
+    const formattedProducts = allProducts.map((product) => ({
+      ...product,
+      category: product.category.toLowerCase(),
+    }));
+
+    await Product.insertMany(formattedProducts);
 
     console.log("Data was initialized successfully");
 

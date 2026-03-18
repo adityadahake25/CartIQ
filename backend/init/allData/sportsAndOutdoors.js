@@ -4,7 +4,7 @@ const sportsAndOutdoors = [
     itemName: "Insulated Water Bottle (750ml)",
     brand: "TrailMate",
     description: "Keeps drinks cold for 24h.",
-    category: "Sports & Outdoors",
+    category: "sports & outdoors",
 
     price: 499,
     mrp: 699,
@@ -40,7 +40,7 @@ const sportsAndOutdoors = [
     itemName: "Yoga Mat (6mm)",
     brand: "FlexFit",
     description: "Non-slip textured yoga mat.",
-    category: "Sports & Outdoors",
+    category: "sports & outdoors",
 
     price: 899,
     mrp: 1199,
@@ -76,7 +76,7 @@ const sportsAndOutdoors = [
     itemName: "Camping Hammock",
     brand: "WildRest",
     description: "Lightweight 2-person hammock.",
-    category: "Sports & Outdoors",
+    category: "sports & outdoors",
 
     price: 1299,
     mrp: 1599,
@@ -112,7 +112,7 @@ const sportsAndOutdoors = [
     itemName: "Adjustable Dumbbell",
     brand: "IronFlex",
     description: "Space-saving dumbbell set.",
-    category: "Sports & Outdoors",
+    category: "sports & outdoors",
 
     price: 5999,
     mrp: 6999,
@@ -148,7 +148,7 @@ const sportsAndOutdoors = [
     itemName: "Road Bike Helmet",
     brand: "SafeRide",
     description: "Aerodynamic cycling helmet.",
-    category: "Sports & Outdoors",
+    category: "sports & outdoors",
 
     price: 1299,
     mrp: 1599,
@@ -184,7 +184,7 @@ const sportsAndOutdoors = [
     itemName: "Football Size 5",
     brand: "KickMaster",
     description: "Durable PU football.",
-    category: "Sports & Outdoors",
+    category: "sports & outdoors",
 
     price: 799,
     mrp: 999,
@@ -220,7 +220,7 @@ const sportsAndOutdoors = [
     itemName: "Tennis Racket",
     brand: "ProSwing",
     description: "Lightweight graphite racket.",
-    category: "Sports & Outdoors",
+    category: "sports & outdoors",
 
     price: 2299,
     mrp: 2799,
@@ -255,7 +255,7 @@ const sportsAndOutdoors = [
     itemName: "Resistance Bands Set",
     brand: "FlexBand",
     description: "Set of 5 color-coded resistance bands.",
-    category: "Sports & Outdoors",
+    category: "sports & outdoors",
 
     price: 599,
     mrp: 799,
@@ -291,7 +291,7 @@ const sportsAndOutdoors = [
     itemName: "Cricket Bat (English Willow)",
     brand: "PowerHit",
     description: "Professional cricket bat.",
-    category: "Sports & Outdoors",
+    category: "sports & outdoors",
 
     price: 3499,
     mrp: 4199,
@@ -327,7 +327,7 @@ const sportsAndOutdoors = [
     itemName: "Hiking Backpack (50L)",
     brand: "TrekMate",
     description: "Water-resistant trekking backpack.",
-    category: "Sports & Outdoors",
+    category: "sports & outdoors",
 
     price: 2499,
     mrp: 2999,
@@ -363,7 +363,7 @@ const sportsAndOutdoors = [
     itemName: "Folding Camping Chair",
     brand: "WildRest",
     description: "Heavy-duty steel frame with cup holder and carry bag.",
-    category: "Sports & Outdoors",
+    category: "sports & outdoors",
 
     price: 1499,
     mrp: 1799,
@@ -400,7 +400,7 @@ const sportsAndOutdoors = [
     brand: "ProSwing",
     description:
       "Graphite face with honeycombed core, includes 2 paddles and 4 balls.",
-    category: "Sports & Outdoors",
+    category: "sports & outdoors",
 
     price: 3299,
     mrp: 3899,
@@ -437,7 +437,7 @@ const sportsAndOutdoors = [
     brand: "KickMaster",
     description:
       "Leak-proof silicone seal with UV protection and clear vision.",
-    category: "Sports & Outdoors",
+    category: "sports & outdoors",
 
     price: 899,
     mrp: 1099,

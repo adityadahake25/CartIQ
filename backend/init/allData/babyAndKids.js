@@ -6,7 +6,7 @@ const babyAndKids = [
     itemName: "Convertible Baby Car Seat",
     brand: "LittleGuardian",
     description: "Safe car seat with recline.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 8999,
     mrp: 10499,
@@ -40,7 +40,7 @@ const babyAndKids = [
     itemName: "Silicone Baby Feeding Set",
     brand: "TinyBites",
     description: "Plate, bowl and spoon set.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 899,
     mrp: 1099,
@@ -76,7 +76,7 @@ const babyAndKids = [
     itemName: "Learning Tablet (Ages 3–7)",
     brand: "SmartTots",
     description: "Educational kids tablet.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 3999,
     mrp: 4499,
@@ -112,7 +112,7 @@ const babyAndKids = [
     itemName: "Organic Cotton Baby Onesie",
     brand: "SnuggleBug",
     description: "3-pack breathable onesie.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 1099,
     mrp: 1299,
@@ -148,7 +148,7 @@ const babyAndKids = [
     itemName: "Wooden Building Blocks",
     brand: "BuildBright",
     description: "50-piece colorful block set.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 799,
     mrp: 999,
@@ -184,7 +184,7 @@ const babyAndKids = [
     itemName: "Soft Plush Teddy Bear",
     brand: "CuddleToy",
     description: "Large cuddly teddy bear.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 699,
     mrp: 899,
@@ -220,7 +220,7 @@ const babyAndKids = [
     itemName: "Kids Study Table Set",
     brand: "LearnMate",
     description: "Adjustable table and chair.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 2799,
     mrp: 3299,
@@ -254,7 +254,7 @@ const babyAndKids = [
     itemName: "Baby Stroller",
     brand: "EasyMove",
     description: "Lightweight foldable stroller.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 4999,
     mrp: 5899,
@@ -290,7 +290,7 @@ const babyAndKids = [
     itemName: "Kids Water Bottle (350ml)",
     brand: "FunSip",
     description: "Leak-proof cartoon bottle.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 299,
     mrp: 349,
@@ -326,7 +326,7 @@ const babyAndKids = [
     itemName: "Baby Blanket",
     brand: "CozyCot",
     description: "Soft cotton baby blanket.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 499,
     mrp: 649,
@@ -362,7 +362,7 @@ const babyAndKids = [
     itemName: "Baby Video Monitor",
     brand: "SafeSight",
     description: "Night vision camera with two-way audio.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 4500,
     mrp: 5200,
@@ -398,7 +398,7 @@ const babyAndKids = [
     itemName: "Musical Crib Mobile",
     brand: "DreamyNights",
     description: "Rotating mobile with soothing lullabies.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 1299,
     mrp: 1599,
@@ -434,7 +434,7 @@ const babyAndKids = [
     itemName: "Silicone Teething Toy",
     brand: "TinyBites",
     description: "BPA-free easy-grip teether.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 349,
     mrp: 420,
@@ -470,7 +470,7 @@ const babyAndKids = [
     itemName: "Toddler Backpack",
     brand: "LittleJoy",
     description: "Cute animal-themed mini backpack.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 899,
     mrp: 1099,
@@ -506,7 +506,7 @@ const babyAndKids = [
     itemName: "Magnetic Tiles Set",
     brand: "BuildBright",
     description: "60-piece 3D magnetic building set.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 2499,
     mrp: 2999,
@@ -542,7 +542,7 @@ const babyAndKids = [
     itemName: "Bath Toy Set",
     brand: "SplashFun",
     description: "Stacking cups and rubber ducks.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 599,
     mrp: 750,
@@ -578,7 +578,7 @@ const babyAndKids = [
     itemName: "Electric Baby Swing",
     brand: "EasyMove",
     description: "5-speed automatic rocking swing.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 6500,
     mrp: 7500,
@@ -614,7 +614,7 @@ const babyAndKids = [
     itemName: "Kids Art Easel",
     brand: "LearnMate",
     description: "Double-sided chalkboard and whiteboard.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 3200,
     mrp: 3800,
@@ -650,7 +650,7 @@ const babyAndKids = [
     itemName: "Diaper Bag Organizer",
     brand: "LittleGuardian",
     description: "Multi-pocket waterproof travel bag.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 1899,
     mrp: 2199,
@@ -686,7 +686,7 @@ const babyAndKids = [
     itemName: "Baby Bath Tub",
     brand: "CozyCot",
     description: "Ergonomic tub with temperature sensor.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 1499,
     mrp: 1799,
@@ -721,7 +721,7 @@ const babyAndKids = [
     itemName: "Potty Training Seat",
     brand: "TinyBites",
     description: "Comfortable seat with splash guard.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 799,
     mrp: 950,
@@ -757,7 +757,7 @@ const babyAndKids = [
     itemName: "Kids Roller Skates",
     brand: "ActiveShield",
     description: "Adjustable size beginner skates.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 2100,
     mrp: 2499,
@@ -793,7 +793,7 @@ const babyAndKids = [
     itemName: "Alphabet Floor Mat",
     brand: "SmartTots",
     description: "Interlocking foam letters mat.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 1199,
     mrp: 1499,
@@ -829,7 +829,7 @@ const babyAndKids = [
     itemName: "Baby Carrier Ergonomic",
     brand: "SnuggleBug",
     description: "Front and back carry positions.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 3999,
     mrp: 4599,
@@ -865,7 +865,7 @@ const babyAndKids = [
     itemName: "Night Light Projector",
     brand: "DreamyNights",
     description: "Starry sky room projector for kids.",
-    category: "Baby & Kids",
+    category: "baby & kids",
 
     price: 999,
     mrp: 1299,

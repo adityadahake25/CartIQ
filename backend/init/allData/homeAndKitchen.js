@@ -4,7 +4,7 @@ const homeAndKitchen = [
     itemName: "Non-stick Frying Pan",
     brand: "CookEase",
     description: "Durable non-stick surface pan.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 799,
     mrp: 999,
@@ -40,7 +40,7 @@ const homeAndKitchen = [
     itemName: "Cotton Bed Sheet Set",
     brand: "SleepWell",
     description: "Soft queen size cotton bed sheet.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 1499,
     mrp: 1799,
@@ -76,7 +76,7 @@ const homeAndKitchen = [
     itemName: "Rechargeable Handheld Vacuum",
     brand: "CleanSwift",
     description: "Lightweight portable vacuum cleaner.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 3499,
     mrp: 3999,
@@ -112,7 +112,7 @@ const homeAndKitchen = [
     itemName: "Ceramic Dinnerware Set (16pcs)",
     brand: "TableCraft",
     description: "Chip-resistant stylish dinner set.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 2599,
     mrp: 2999,
@@ -148,7 +148,7 @@ const homeAndKitchen = [
     itemName: "Essential Oil Diffuser",
     brand: "AromaSphere",
     description: "LED mood lighting oil diffuser.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 1299,
     mrp: 1599,
@@ -184,7 +184,7 @@ const homeAndKitchen = [
     itemName: "Electric Kettle (1.5L)",
     brand: "QuickBoil",
     description: "Stainless steel fast boiling kettle.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 1099,
     mrp: 1399,
@@ -220,7 +220,7 @@ const homeAndKitchen = [
     itemName: "Plastic Storage Container Set",
     brand: "StoreWell",
     description: "Airtight multipurpose containers set.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 699,
     mrp: 899,
@@ -254,7 +254,7 @@ const homeAndKitchen = [
     itemName: "Floor Mop Set",
     brand: "SparkClean",
     description: "360° spin mop with bucket.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 1199,
     mrp: 1499,
@@ -290,7 +290,7 @@ const homeAndKitchen = [
     itemName: "Stainless Steel Knife Set",
     brand: "ChefMaster",
     description: "5-piece knife set with wooden stand.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 1899,
     mrp: 2299,
@@ -326,7 +326,7 @@ const homeAndKitchen = [
     itemName: "Air Fryer (4L)",
     brand: "CrispCook",
     description: "Low-oil healthy cooking fryer.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 5999,
     mrp: 6999,
@@ -362,7 +362,7 @@ const homeAndKitchen = [
     itemName: "Digital Kitchen Scale",
     brand: "CookEase",
     description: "Precision sensor for accurate ingredient weighing.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 899,
     mrp: 1099,
@@ -399,7 +399,7 @@ const homeAndKitchen = [
     brand: "QuickBoil",
     description:
       "Heat-resistant borosilicate glass with stainless steel filter.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 1299,
     mrp: 1599,
@@ -435,7 +435,7 @@ const homeAndKitchen = [
     itemName: "Memory Foam Pillow Set",
     brand: "SleepWell",
     description: "Contoured support for neck and shoulder comfort.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 2199,
     mrp: 2599,
@@ -469,7 +469,7 @@ const homeAndKitchen = [
     itemName: "Silicone Cooking Utensils (12pcs)",
     brand: "ChefMaster",
     description: "Heat-resistant non-stick kitchen tool set.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 1599,
     mrp: 1899,
@@ -505,7 +505,7 @@ const homeAndKitchen = [
     itemName: "Automatic Soap Dispenser",
     brand: "CleanSwift",
     description: "Touchless infrared sensor for hygiene.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 1350,
     mrp: 1650,
@@ -541,7 +541,7 @@ const homeAndKitchen = [
     itemName: "Magnetic Knife Bar",
     brand: "ChefMaster",
     description: "Space-saving stainless steel magnetic strip.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 649,
     mrp: 799,
@@ -575,7 +575,7 @@ const homeAndKitchen = [
     itemName: "Bamboo Cutting Board Set",
     brand: "TableCraft",
     description: "3-piece eco-friendly durable wooden boards.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 999,
     mrp: 1199,
@@ -611,7 +611,7 @@ const homeAndKitchen = [
     itemName: "Smart LED Desk Lamp",
     brand: "AromaSphere",
     description: "Dimmable light with USB charging port.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 1899,
     mrp: 2299,
@@ -647,7 +647,7 @@ const homeAndKitchen = [
     itemName: "Glass Meal Prep Containers",
     brand: "StoreWell",
     description: "5-pack airtight leak-proof glass bowls.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 1750,
     mrp: 2099,
@@ -683,7 +683,7 @@ const homeAndKitchen = [
     itemName: "Electric Milk Frother",
     brand: "QuickBoil",
     description: "Handheld foam maker for lattes and cappuccinos.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 499,
     mrp: 620,
@@ -718,7 +718,7 @@ const homeAndKitchen = [
     itemName: "Microfiber Cleaning Cloths (10-pack)",
     brand: "SparkClean",
     description: "Ultra-soft lint-free cloths for all surfaces.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 550,
     mrp: 699,
@@ -754,7 +754,7 @@ const homeAndKitchen = [
     itemName: "Wall-Mounted Key Holder",
     brand: "TableCraft",
     description: "Decorative organizer with shelf for mail.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 799,
     mrp: 999,
@@ -790,7 +790,7 @@ const homeAndKitchen = [
     itemName: "Vegetable Chopper/Slicer",
     brand: "CookEase",
     description: "Multi-blade manual food processor.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 1150,
     mrp: 1399,
@@ -826,7 +826,7 @@ const homeAndKitchen = [
     itemName: "Double-Walled Glass Mugs (Set of 2)",
     brand: "TableCraft",
     description: "Insulated clear mugs for hot and cold drinks.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 899,
     mrp: 1099,
@@ -862,7 +862,7 @@ const homeAndKitchen = [
     itemName: "Collapsible Laundry Basket",
     brand: "StoreWell",
     description: "Space-saving foldable silicone laundry basket.",
-    category: "Home & Kitchen",
+    category: "home & kitchen",
 
     price: 699,
     mrp: 899,
