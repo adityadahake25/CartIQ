@@ -1,0 +1,128 @@
+.product-page {
+  display: flex;
+  gap: 50px;
+  padding: 40px;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+/* LEFT */
+.product-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-left img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* RIGHT */
+.product-right {
+  flex: 1;
+}
+
+/* TITLE */
+.title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* BRAND */
+.brand {
+  color: #64748b;
+  margin-bottom: 10px;
+}
+
+/* DESC */
+.description {
+  margin-bottom: 20px;
+  color: #334155;
+}
+
+/* PRICE */
+.price-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 28px;
+  font-weight: bold;
+  color: #16a34a;
+}
+
+.mrp {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+.discount {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+/* RATING */
+.rating {
+  margin-bottom: 10px;
+}
+
+/* DELIVERY */
+.delivery {
+  margin-bottom: 10px;
+  color: #0284c7;
+}
+
+/* STOCK */
+.stock {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* BUTTONS */
+.btn-group {
+  display: flex;
+  gap: 15px;
+}
+
+.cart-btn {
+  padding: 12px 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cart-btn:hover {
+  background: #1d4ed8;
+}
+
+.buy-btn {
+  padding: 12px 20px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background: #15803d;
+}
+
+/* STATES */
+.loading,
+.error {
+  text-align: center;
+  margin-top: 50px;
+}

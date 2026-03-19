@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import "./CategoryPage.css";
 
 const CategoryPage = () => {
   const { categoryName } = useParams();
   const category = decodeURIComponent(categoryName);
+
+  const navigate = useNavigate();
 
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -100,7 +102,11 @@ const CategoryPage = () => {
                 <p>No products found</p>
               ) : (
                 products.map((product) => (
-                  <div className="product-card" key={product.id}>
+                  <div
+                    className="product-card"
+                    key={product.id}
+                    onClick={() => navigate(`/product/${product.id}`)}
+                  >
                     {/* Discount */}
                     {product.discountPercentage && (
                       <div className="discountBadge">
@@ -132,7 +138,15 @@ const CategoryPage = () => {
                     </div>
 
                     {/* Button */}
-                    <button className="addCartBtn">Add to Cart</button>
+                    <button
+                      className="addCartBtn"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        console.log("Add to cart");
+                      }}
+                    >
+                      Add to Cart
+                    </button>
                   </div>
                 ))
               )}
