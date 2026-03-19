@@ -1,44 +1,40 @@
+import { Link } from "react-router-dom";
+
 function RightCategory() {
+  const categories = [
+    {
+      name: "Home & Kitchen",
+      img: "/CategoryImages/home_and_kitchen_ctg.png",
+      tagline: "Smart Living – Made Simple at Home.",
+    },
+    {
+      name: "Beauty & Personal Care",
+      img: "/CategoryImages/beauty_and_personalCare_ctg.png",
+      tagline: "Glow Everyday – Your Self-Care Starts Here!",
+    },
+    {
+      name: "Books & Media",
+      img: "/CategoryImages/books_and_media_ctg.png",
+      tagline: "Make Every Corner Smarter & Cozier.",
+    },
+  ];
+
   return (
     <>
-      <div className="ctgItem">
-        <a href="#" className="ctgImg">
-          <img
-            src="/CategoryImages/home_and_kitchen_ctg.png"
-            alt="home_and_kitchen"
-          />
-          <div className="img-card-overlay">
-            <h2>Home & Kitchen</h2>
-            <i>"Smart Living – Made Simple at Home."</i>
-          </div>
-        </a>
-      </div>
-
-      <div className="ctgItem">
-        <a href="#" className="ctgImg">
-          <img
-            src="/CategoryImages/beauty_and_personalCare_ctg.png"
-            alt="beauty"
-          />
-          <div className="img-card-overlay">
-            <h2>Beauty & Personal Care</h2>
-            <i>"Glow Everyday – Your Self-Care Starts Here!"</i>
-          </div>
-        </a>
-      </div>
-
-      <div className="ctgItem">
-        <a href="#" className="ctgImg">
-          <img
-            src="/CategoryImages/books_and_media_ctg.png"
-            alt="books_and_media"
-          />
-          <div className="img-card-overlay">
-            <h2>Books & Media</h2>
-            <i>"Make Every Corner Smarter & Cozier."</i>
-          </div>
-        </a>
-      </div>
+      {categories.map((category, index) => (
+        <div className="ctgItem" key={index}>
+          <Link
+            to={`/category/${encodeURIComponent(category.name.toLowerCase())}`}
+            className="ctgImg"
+          >
+            <img src={category.img} alt={category.name} />
+            <div className="img-card-overlay">
+              <h2>{category.name}</h2>
+              <i>"{category.tagline}"</i>
+            </div>
+          </Link>
+        </div>
+      ))}
     </>
   );
 }

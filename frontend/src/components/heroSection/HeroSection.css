@@ -63,21 +63,28 @@
 }
 
 .img-card-overlay {
-  width: 360px;
   position: absolute;
-  top: 50%;
-  left: 20px;
-  transform: translateY(-50%);
+  top: 20px; /* move to top */
+  left: 20px; /* keep left alignment */
+  transform: none; /* remove vertical centering */
+  width: 100%; /* better responsiveness */
   color: #fff;
-  font-size: 1.2rem;
   text-align: left;
   z-index: 1;
+  margin-top: 7%;
 }
 
 /* ADD THIS */
+.img-card-overlay h2,
+.img-card-overlay i {
+  text-align: left;
+  display: block;
+}
+
 .img-card-overlay h2 {
   margin: 0;
   line-height: 1.2;
+  font-size: 1.8rem;
 }
 
 .img-card-overlay i {
@@ -261,6 +268,7 @@
   }
 
   .img-card-overlay h2 {
+    left: 0px;
     margin: 0 0 3px;
     font-size: 0.8rem;
   }
