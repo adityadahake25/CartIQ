@@ -10,10 +10,7 @@ const ShowProduct = () => {
 
   const fetchProduct = async () => {
     try {
-      console.log("Fetching product:", id);
-
       const response = await fetch(`http://localhost:7000/api/products/${id}`);
-
       const data = await response.json();
       setProduct(data);
     } catch (error) {
@@ -27,61 +24,78 @@ const ShowProduct = () => {
     fetchProduct();
   }, [id]);
 
-  // 🔄 Loading state
-  if (loading) return <h2 className="loading">Loading...</h2>;
-
-  // ❌ Product not found
-  if (!product) return <h2 className="error">Product Not Found</h2>;
+  if (loading) return <h2 className="sp-loading">Loading...</h2>;
+  if (!product) return <h2 className="sp-error">Product Not Found</h2>;
 
   return (
-    <div className="product-page">
-      {/* LEFT - IMAGE */}
-      <div className="product-left">
-        <img
-          src={product.images?.[0] || "/default.png"}
-          alt={product.itemName}
-        />
-      </div>
+    <div className="sp-container">
+      <div className="sp-card">
+        {/* LEFT */}
+        <div className="sp-left">
+          <img
+            src={product.images?.[0] || "/default.png"}
+            alt={product.itemName}
+            className="sp-image"
+          />
 
-      {/* RIGHT - DETAILS */}
-      <div className="product-right">
-        <h1 className="title">{product.itemName}</h1>
-
-        <p className="brand">Brand: {product.brand}</p>
-
-        <p className="description">{product.description}</p>
-
-        {/* PRICE */}
-        <div className="price-box">
-          <span className="price">₹{product.price}</span>
-
-          {product.mrp && <span className="mrp">₹{product.mrp}</span>}
-
-          {product.discountPercentage && (
-            <span className="discount">{product.discountPercentage}% OFF</span>
-          )}
+          <div className="sp-btn-group">
+            <button className="sp-cart-btn">🛒 Add to Cart</button>
+            <button className="sp-buy-btn">⚡ Buy Now</button>
+          </div>
         </div>
 
-        {/* RATINGS */}
-        <div className="rating">
-          ⭐ {product.ratings?.average || 4.5} (
-          {product.ratings?.totalReviews || 0} reviews)
-        </div>
+        {/* RIGHT */}
+        <div className="sp-right">
+          <h1 className="sp-title">{product.itemName}</h1>
 
-        {/* DELIVERY */}
-        <p className="delivery">
-          🚚 Delivery in {product.deliveryInfo?.estimatedDeliveryDays || 2} days
-        </p>
+          <p className="sp-brand">
+            Brand: <span>{product.brand}</span>
+          </p>
 
-        {/* STOCK */}
-        <p className="stock">
-          {product.stock > 0 ? "✅ In Stock" : "❌ Out of Stock"}
-        </p>
+          <div className="sp-rating">
+            ⭐ {product.ratings?.average}
+            <span> ({product.ratings?.totalReviews} reviews)</span>
+          </div>
 
-        {/* BUTTONS */}
-        <div className="btn-group">
-          <button className="cart-btn">Add to Cart</button>
-          <button className="buy-btn">Buy Now</button>
+          {/* PRICE */}
+          <div className="sp-price-box">
+            <span className="sp-price">₹{product.price}</span>
+            <span className="sp-mrp">₹{product.mrp}</span>
+            <span className="sp-discount">
+              {product.discountPercentage}% OFF
+            </span>
+          </div>
+
+          {/* DESCRIPTION */}
+          <p className="sp-description">{product.description}</p>
+
+          {/* DELIVERY */}
+          <div className="sp-info-box">
+            <p>
+              🚚 Delivery in{" "}
+              <b>{product.deliveryInfo?.estimatedDeliveryDays} days</b>
+            </p>
+            <p>💰 Delivery Charge: ₹{product.deliveryInfo?.deliveryCharge}</p>
+            <p>
+              💳 COD:{" "}
+              {product.deliveryInfo?.cashOnDelivery
+                ? "Available"
+                : "Not Available"}
+            </p>
+          </div>
+
+          {/* STOCK */}
+          <div className={`sp-stock ${product.stock > 0 ? "sp-in" : "sp-out"}`}>
+            {product.stock > 0 ? "In Stock ✅" : "Out of Stock ❌"}
+          </div>
+
+          {/* RETURN */}
+          <div className="sp-return">
+            🔁{" "}
+            {product.isReturnable
+              ? `${product.returnDays} Days Return Available`
+              : "No Return"}
+          </div>
         </div>
       </div>
     </div>
