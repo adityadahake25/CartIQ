@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 import logo from "../../assets/cart_h_logo.png";
 
@@ -10,9 +11,11 @@ function Navbar() {
     <nav className="navbar">
       <div className="navContainer">
         {/* Logo */}
-        <div className="logo">
-          <img src={logo} className="logoImg" alt="logo" />
-        </div>
+        <Link to="/">
+          <div className="logo">
+            <img src={logo} className="logoImg" alt="logo" />
+          </div>
+        </Link>
 
         {/* Search */}
         <div className="searchContainer">
@@ -38,7 +41,9 @@ function Navbar() {
 
         {/* Desktop Links */}
         <div className="desktopLinks">
-          <a href="#">Home</a>
+          <a href="#">
+            <Link to="/">Home</Link>
+          </a>
           <a href="#">Categories</a>
 
           <a href="#">
